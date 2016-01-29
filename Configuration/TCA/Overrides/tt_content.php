@@ -105,6 +105,7 @@ $GLOBALS['TCA']['tt_content']['types']['header']['showitem'] = '
 $GLOBALS['TCA']['tt_content']['types']['text']['showitem'] = '
                 --palette--;LLL:EXT:cms/locallang_ttc.xlf:palette.general;general,
                 --palette--;LLL:EXT:cms/locallang_ttc.xlf:palette.header;header,
+                subheader,
                 bodytext;LLL:EXT:cms/locallang_ttc.xlf:bodytext_formlabel;;richtext:rte_transform[flag=rte_enabled|mode=ts_css],
                 rte_enabled;LLL:EXT:cms/locallang_ttc.xlf:rte_enabled_formlabel,
         --div--;LLL:EXT:cms/locallang_ttc.xlf:tabs.appearance,
